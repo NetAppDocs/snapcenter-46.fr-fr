@@ -1,0 +1,30 @@
+---
+permalink: protect-scsql/task_view_the_imported_backups_in_snapcenter_server.html 
+sidebar: sidebar 
+keywords:  
+summary: Après avoir importé vos sauvegardes archivées SnapManager pour Microsoft SQL Server, vous pouvez afficher ces sauvegardes dans SnapCenter à partir de la page topologie. 
+---
+= Afficher les sauvegardes importées dans le serveur SnapCenter
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Après avoir importé vos sauvegardes archivées SnapManager pour Microsoft SQL Server, vous pouvez afficher ces sauvegardes dans SnapCenter à partir de la page topologie.
+
+*Étapes*
+
+. Dans le volet de navigation de gauche, cliquez sur *Ressources*, puis sélectionnez le plug-in approprié dans la liste.
+. Créez un groupe de ressources avec toutes les bases de données.
+. Sélectionnez le groupe de ressources.
+. Protéger le groupe de ressources.
+. Dans la page topologie, dans la vue gérer les copies, cliquez sur sauvegardes à partir des copies du coffre-fort.
++
+Les détails des sauvegardes s'affichent.
+
++
+
+NOTE: Lorsque les copies Snapshot archivées sont migrées et qu'elles sont nettoyées depuis le stockage dans le cadre de la conservation secondaire, les copies Snapshot primaires respectives qui sont créées dans SnapManager doivent être nettoyées manuellement.
+
+

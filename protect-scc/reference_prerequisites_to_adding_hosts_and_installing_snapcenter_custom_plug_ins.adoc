@@ -1,0 +1,64 @@
+---
+permalink: protect-scc/reference_prerequisites_to_adding_hosts_and_installing_snapcenter_custom_plug_ins.html 
+sidebar: sidebar 
+keywords: credentials 
+summary: 'Avant d"ajouter un hôte et d"installer les packages de plug-ins, vous devez respecter toutes les exigences. Les plug-ins personnalisés peuvent être utilisés dans les environnements Windows et Linux.' 
+---
+= Conditions préalables pour l'ajout d'hôtes et l'installation des plug-ins personnalisés SnapCenter
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Avant d'ajouter un hôte et d'installer les packages de plug-ins, vous devez respecter toutes les exigences. Les plug-ins personnalisés peuvent être utilisés dans les environnements Windows et Linux.
+
+* Vous devez avoir créé un plug-in personnalisé. Pour plus de détails, reportez-vous aux informations sur le développeur.
++
+link:concept_develop_a_plug_in_for_your_application.html["Développez un plug-in pour votre application"]
+
+* Pour gérer des applications MySQL ou DB2, vous devez avoir téléchargé les plug-ins personnalisés MySQL et DB2 fournis par NetApp.
+* Vous devez avoir installé Java 1.8, 64 bits sur votre hôte Linux ou Windows.
+* Lors de l'installation d'un plug-in sur un hôte Windows, si vous spécifiez un identifiant qui n'est pas intégré ou si l'utilisateur appartient à un utilisateur de groupe de travail local, vous devez désactiver l'UAC sur l'hôte.
+* Les plug-ins personnalisés doivent être disponibles sur l'hôte client à partir duquel l'opération d'ajout d'hôte est effectuée.
+
+
+
+
+== Généralités
+
+Si vous utilisez iSCSI, le service iSCSI doit être en cours d'exécution.
+
+
+
+== Hôtes Windows
+
+* Vous devez disposer d'un utilisateur de domaine disposant de privilèges d'administrateur local avec des autorisations de connexion locales sur l'hôte distant.
+* Si vous gérez des nœuds de cluster dans SnapCenter, vous devez disposer d'un utilisateur disposant de privilèges d'administration sur tous les nœuds du cluster.
+
+
+
+
+== Hôtes Linux
+
+* Vous devez avoir activé la connexion SSH par mot de passe pour l'utilisateur root ou non-root.
+* Vous devez avoir installé Java 1.8 64 bits sur votre hôte Linux.
++
+Si vous utilisez Windows 2019 ou Windows 2016 pour l'hôte SnapCenter Server, vous devez installer Java 1.8, 64 bits. La matrice d'interopérabilité (IMT) contient les dernières informations sur les conditions requises.
+
++
+http://www.java.com/en/download/manual.jsp["Téléchargements Java pour tous les systèmes d'exploitation"]
+
++
+https://imt.netapp.com/matrix/imt.jsp?components=103047;&solution=1257&isHWU&src=IMT["Matrice d'interopérabilité NetApp"]
+
+* Vous devez configurer les privilèges sudo pour que l'utilisateur non-root puisse accéder à plusieurs chemins. Ajoutez les lignes suivantes au fichier /etc/sudoers à l'aide de l'utilitaire visudo Linux. Par exemple :
++
+[listing]
+----
+Cmnd_Alias SCCMD = /opt/NetApp/snapcenter/scc/bin/scc <non_root_user> ALL=(ALL) NOPASSWD:SETENV: SCCMD
+----
++
+non_root_user est le nom de l'utilisateur non-root que vous avez créé.
+
+

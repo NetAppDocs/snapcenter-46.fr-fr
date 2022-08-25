@@ -1,0 +1,115 @@
+---
+permalink: sc-automation/refrence_rest_apis_supported_for_oracle_database.html 
+sidebar: sidebar 
+keywords: REST APIs, oracle database 
+summary: 'Décrit les workflows d"API REST pris en charge pour la base de données Oracle' 
+---
+= API REST prises en charge pour les bases de données Oracle
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Pour effectuer les opérations suivantes, la base de données Oracle utilise des API REST :
+
+
+
+== Informations d'identification
+
+* Enregistrer les informations d'identification auprès du serveur SnapCenter
+* Récupérer les informations d'identification enregistrées avec le serveur SnapCenter
+* Récupérer les informations d'identification par nom
+* Modifier les informations d'identification
+* Supprimer les informations d'identification
+
+
+
+
+== Hôte
+
+* Ajouter hôte
+* Supprimer un ou plusieurs hôtes de SnapCenter
+* Récupérer un hôte par son nom
+
+
+
+
+== Intégration
+
+* Installation des plug-ins sur l'hôte existant
+* Plug-in de mise à niveau
+
+
+
+
+== Politique
+
+* Création de la règle
+* Récupérer la règle par nom
+* Modifier la règle
+* Supprimer la règle
+
+
+
+
+== Groupes de ressources
+
+* Protéger le groupe de ressources
+* Modifier la protection
+* Déposer la protection
+* Créer un nouveau groupe de ressources
+* Récupérer le groupe de ressources par nom
+* Modifier le groupe de ressources
+* Supprimer le groupe de ressources
+
+
+
+
+== Ressources
+
+* Découvrir les bases de données
+* Configurer la base de données
+
+
+
+
+== Sauvegardes
+
+* Démarrer une opération de sauvegarde de ressources
+* Démarrez une opération de sauvegarde
+* Récupérer les sauvegardes par nom
+* Récupérer les sauvegardes
+* Supprimer une sauvegarde par nom
+
+
+
+
+== Restaurer
+
+* Restaurer une sauvegarde
+
+
+
+
+== Actualisation des clones
+
+* Créer une spécification de clone de base de données Oracle à partir d'une sauvegarde spécifiée
+* Afficher, modifier et supprimer un fichier spécifique au clone
+* Actualisation des clones
+
+
+
+
+== RBAC
+
+* Affecter des ressources à un utilisateur ou à un groupe
+* Annuler l'affectation des ressources à un utilisateur ou à un groupe
+
+
+
+
+== Paramètres de configuration
+
+* Récupérer et modifier les paramètres de configuration
+

@@ -1,0 +1,220 @@
+---
+permalink: sc-automation/reference_supported_rest_apis.html 
+sidebar: sidebar 
+keywords: REST API categories 
+summary: 'Les ressources disponibles via l"API REST de SnapCenter sont organisées par catégories, comme affichées sur la page de documentation de l"API SnapCenter.' 
+---
+= API REST prises en charge pour d'autres plug-ins
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Les ressources disponibles via l'API REST de SnapCenter sont organisées par catégories, comme affichées sur la page de documentation de l'API SnapCenter. Une brève description de chacune des ressources avec les chemins de ressources de base est présentée ci-dessous, ainsi que des considérations d'utilisation supplémentaires, le cas échéant.
+
+
+
+== Auth
+
+Vous pouvez utiliser cet appel d'API pour vous connecter au serveur SnapCenter. Cette API renvoie un jeton d'autorisation d'utilisateur utilisé pour authentifier les requêtes suivantes.
+
+
+
+== Domaines
+
+Vous pouvez utiliser ces appels API pour effectuer les opérations suivantes :
+
+* récupérer tous les domaines
+* récupérer les détails d'un domaine spécifique
+* enregistrer ou annuler l'enregistrement d'un domaine
+* modifier un domaine
+
+
+
+
+== Emplois
+
+Vous pouvez utiliser ces appels API pour effectuer les opérations suivantes :
+
+* récupérer tous les travaux
+* récupérer l'état d'un travail
+* annuler ou arrêter un travail
+
+
+
+
+== Paramètres
+
+Vous pouvez utiliser ces appels API pour effectuer les opérations suivantes :
+
+* enregistrer, afficher, modifier ou supprimer une information d'identification
+* configurer les paramètres de notification
+
+
+
+
+== Hôtes
+
+Vous pouvez utiliser ces appels API pour effectuer les opérations suivantes :
+
+* récupérer les détails de l'hôte
+* récupérer le plug-in installé et ses informations sur les ressources
+* ajouter, supprimer ou modifier un hôte de plug-in
+* installation ou mise à niveau des plug-ins
+
+
+
+
+== Ressources
+
+Vous pouvez utiliser ces appels API pour effectuer les opérations suivantes :
+
+* récupérer les ressources
+* créer, modifier ou supprimer des ressources
+* protéger une ressource
+* sauvegarde, restauration ou clonage d'une ressource
+
+
+
+
+== Sauvegardes
+
+Vous pouvez utiliser ces appels API pour effectuer les opérations suivantes :
+
+* récupérer les détails de la sauvegarde
+* renommer ou supprimer des sauvegardes
+
+
+
+
+== Clones
+
+Vous pouvez utiliser ces appels API pour effectuer les opérations suivantes :
+
+* récupère les informations du clone
+* supprimer les clones
+
+
+
+
+== Clonesplit
+
+Vous pouvez utiliser ces appels API pour effectuer les opérations suivantes :
+
+* récupère l'état d'une opération de fractionnement de clone
+* démarrer ou arrêter une opération de fractionnement du clone
+
+
+
+
+== Groupes de ressources
+
+Vous pouvez utiliser ces appels API pour effectuer les opérations suivantes :
+
+* extraire les détails d'un groupe de ressources
+* créer, modifier ou supprimer un groupe de ressources
+* sauvegarder un groupe de ressources
+
+
+
+
+== Stratégies
+
+Vous pouvez utiliser ces appels API pour effectuer les opérations suivantes :
+
+* récupérer les détails de la police
+* créer, modifier ou supprimer des règles
+
+
+
+
+== Stockage
+
+Vous pouvez utiliser ces appels API pour effectuer les opérations suivantes :
+
+* récupérer les informations relatives au stockage
+* créer, modifier ou supprimer un stockage
+* découvrir les ressources qui sont stockées
+* créer ou supprimer un partage sur le stockage
+
+
+
+
+== Partagez
+
+Vous pouvez utiliser ces appels API pour effectuer les opérations suivantes :
+
+* récupérer les détails d'un partage
+* créer ou supprimer un partage sur le stockage
+
+
+
+
+== Plug-ins
+
+Vous pouvez utiliser ces appels d'API pour récupérer tous les plug-ins d'un hôte et effectuer différentes opérations.
+
+
+
+== Rapports
+
+Vous pouvez utiliser ces appels API pour effectuer les opérations suivantes :
+
+* génération de rapports sur la sauvegarde, la restauration, le clonage et les plug-ins
+* ajouter, exécuter, supprimer ou modifier des plannings
+
+
+
+
+== Alertes
+
+Vous pouvez utiliser ces appels API pour effectuer les opérations suivantes :
+
+* récupère toutes les alertes
+* supprimer des alertes
+
+
+
+
+== RBAC
+
+Vous pouvez utiliser ces appels API pour effectuer les opérations suivantes :
+
+* récupère les détails des utilisateurs, groupes et rôles
+* ajouter des utilisateurs
+* créer, modifier ou supprimer des rôles
+* affecter ou annuler l'affectation de rôles et de groupes
+
+
+
+
+== Configuration
+
+Vous pouvez utiliser ces appels API pour effectuer les opérations suivantes :
+
+* afficher les paramètres de configuration
+* modifiez les paramètres de configuration
+
+
+
+
+== CertificateSettings
+
+Vous pouvez utiliser ces appels API pour effectuer les opérations suivantes :
+
+* afficher l'état du certificat
+* modifiez les paramètres du certificat
+
+
+
+
+== Référentiel
+
+Vous pouvez utiliser ces appels API pour effectuer les opérations suivantes :
+
+* Sauvegarder et restaurer le référentiel NSM
+* Protégez et déprotégez le référentiel NSM
+* basculement
+* Reconstruire le référentiel NSM
+
