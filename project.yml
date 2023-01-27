@@ -12,6 +12,9 @@ settings:
     version-number: '4.6'
   - name: Logiciel SnapCenter
     url: "/snapcenter"
+    version-number: '4.8'
+  - name: Logiciel SnapCenter
+    url: "/snapcenter-47"
     version-number: '4.7'
   - name: Logiciel SnapCenter
     url: "/snapcenter-45"
