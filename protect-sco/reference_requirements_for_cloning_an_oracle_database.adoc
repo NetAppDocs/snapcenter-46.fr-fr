@@ -74,4 +74,5 @@ NOTE: Vous pouvez enregistrer manuellement les nouveaux points de montage cloné
 * Vous devez définir la valeur de use_lvmetad = 0 dans _/etc/lvm/lvm.conf_ et arrêter le service lvm2-lvmetad pour effectuer le clonage dans les environnements SAN sous Oracle Linux 7 ou version ultérieure ou Red Hat Enterprise Linux (RHEL) 7 ou version ultérieure.
 * Vous devez installer le correctif Oracle 13366202 si vous utilisez la base de données Oracle 11.2.0.3 ou une version ultérieure et si l'ID de base de données de l'instance auxiliaire est modifié à l'aide d'un script NID.
 * Vous devez vous assurer que les agrégats hébergeant les volumes doivent se trouver dans la liste des agrégats attribués de la machine virtuelle de stockage (SVM).
+* Vous devez vous assurer que la LUN n'est pas mappée sur l'hôte AIX à l'aide d'iGroup composé de protocoles mixtes iSCSI et FC. Pour plus d'informations, voir https://kb.netapp.com/mgmt/SnapCenter/SnapCenter_Plug-in_for_Oracle_operations_fail_with_error_Unable_to_discover_the_device_for_LUN_LUN_PATH["L'opération échoue avec une erreur Impossible de détecter le périphérique pour la LUN"^].
 
