@@ -7781,4 +7781,30 @@ NetApp® Single Mailbox Recovery a pris fin le 12 mai 2023. NetApp continuera d'
   <block id="db0c2525f5f13ece537a8604a4046d7c" category="list-text"><block ref="db0c2525f5f13ece537a8604a4046d7c" category="inline-link-rx"></block></block>
   <block id="9e19caeb431a5e29a1a63e3cee4b36c9" category="inline-link">Protection des données Oracle avec ONTAP</block>
   <block id="d118010bb2b3542007c6749bfd237123" category="list-text"><block ref="d118010bb2b3542007c6749bfd237123" category="inline-link-rx"></block></block>
+  <block id="84ecc1fe2cdb5ee0d1406cce859e2541" category="sidebar">Le logiciel SnapCenter est une plateforme simple, centralisée et évolutive qui protège les données de vos applications, bases de données, systèmes de fichiers hôtes et machines virtuelles qui s'exécutent sur les systèmes ONTAP à partir de n'importe quel point du cloud hybride. Cette bibliothèque de documentation contient des informations sur la version 4.6.</block>
+  <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">Commencez</block>
+  <block id="4b09ab22f471832d6728b6e5b9a09aa8" category="sidebar">Découvrez SnapCenter</block>
+  <block id="f13fe3401f6969cdc9233f418f92df1f" category="sidebar">Référence rapide pour protéger les bases de données SQL Server</block>
+  <block id="c70f316066c903485b01199c3d46cf0e" category="sidebar">Mettez à niveau les plug-ins SnapCenter Server et SnapCenter</block>
+  <block id="085f5df3ea322139c5a71aed9fd908cd" category="sidebar">Licences requises</block>
+  <block id="2be699659df3451ee9edbd78cb507a23" category="sidebar">Configurez les ports</block>
+  <block id="134a140044941809d4caf4bac0b38860" category="sidebar">Configurer la haute disponibilité à l'aide de F5</block>
+  <block id="044aa1b4f857dd75e47b8ffafe8440c0" category="sidebar">Reprise après incident de SnapCenter Server</block>
+  <block id="1667afeb46f8ebe931310ebf898d3035" category="sidebar">Installez le plug-in SnapCenter pour la base de données Microsoft SQL Server</block>
+  <block id="d6f047ec290f922c255788a6f1fa067a" category="sidebar">Créez des règles pour sauvegarder des bases de données SQL Server</block>
+  <block id="54bab37592758bedbe84c23554e20c3a" category="sidebar">Sauvegarder les bases de données SQL Server</block>
+  <block id="ecbde4f5ef166bdedbf1d5fa8e75708e" category="sidebar">Installez le plug-in SnapCenter pour la base de données SAP HANA</block>
+  <block id="f65529b9218a6f6ff3111f2cd37df8ac" category="sidebar">Créez des règles pour sauvegarder les bases de données SAP HANA</block>
+  <block id="d6b9b6e8bb8de7b78f01bde37923ad06" category="sidebar">Installez le plug-in SnapCenter pour la base de données Oracle</block>
+  <block id="501ba60aa494a0bae93d0f6bf28c33d6" category="sidebar">Créez des règles pour sauvegarder des bases de données Oracle</block>
+  <block id="8d98e1e37d7a0757bbdfdf54bf8aa618" category="sidebar">Protéger les bases de données sur VMware</block>
+  <block id="235a656535515ab3518937c09836e60d" category="sidebar">En savoir plus sur le plug-in SnapCenter pour VMware vSphere</block>
+  <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">Blogs et communauté</block>
+  <block id="e9b322021f8597d3f9236f7d98977637" category="sidebar">Blog NetApp - SnapCenter</block>
+  <block id="58e8103ac0c834ff3f8387f88cbd4c9a" category="sidebar">Communauté NetApp - SnapCenter</block>
+  <block id="dfcc398099d6a64026e51ab282e16253" category="sidebar">Ressources supplémentaires</block>
+  <block id="0346326f6434b805abd604ddc350d8ed" category="sidebar">Guide de référence de l'applet de commande</block>
+  <block id="832ab315e74cc6d95c21009b0c52cb2b" category="sidebar">Guide de référence sur les commandes</block>
+  <block id="cd04e5d32cbb18b14141238ca9a7ea20" category="sidebar">Documentation relative aux versions antérieures de SnapCenter</block>
+  <block id="66bdd10c104f52b4f8519b652bc8e084" category="sidebar">Base de connaissances NetApp - SnapCenter</block>
 </blocks>
