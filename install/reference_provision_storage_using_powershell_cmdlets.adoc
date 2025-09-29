@@ -8,10 +8,13 @@ summary: 'Si vous ne souhaitez pas utiliser l"interface graphique de SnapCenter 
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
+:firstname: [.lead]
+:author: [.lead]
+:authorinitials: [
+:authors: [.lead]
+:revnumber: 
+:revdate: you can use the PowerShell cmdlets that are provided by SnapCenter Plug-in for Microsoft Windows. You can use cmdlets directly or add them to scripts.
 
-
-[role="lead"]
-Si vous ne souhaitez pas utiliser l'interface graphique de SnapCenter pour effectuer des tâches de provisionnement d'hôtes et de récupération d'espace, vous pouvez utiliser les applets de commande PowerShell fournies par le plug-in SnapCenter pour Microsoft Windows. Vous pouvez utiliser les applets de commande directement ou les ajouter aux scripts.
 
 Si vous exécutez les applets de commande sur un hôte de plug-in distant, vous devez exécuter l'applet de commande SnapCenter Open-SMConnection pour ouvrir une connexion au serveur SnapCenter.
 

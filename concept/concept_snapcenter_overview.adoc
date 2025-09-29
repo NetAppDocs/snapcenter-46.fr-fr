@@ -142,9 +142,6 @@ NOTE: Le plug-in SnapCenter pour UNIX n'est pas un plug-in autonome et ne peut p
 
 
 * Plug-ins personnalisés SnapCenter
-+
-Ces plug-ins personnalisés sont pris en charge par la communauté et peuvent être téléchargés depuis le https://automationstore.netapp.com/home.shtml["Stockage NetApp Storage Automation Store"].
-
 
 
 Le plug-in SnapCenter pour VMware vSphere, anciennement NetApp Data Broker, est une appliance virtuelle autonome prenant en charge les opérations de protection des données SnapCenter sur des bases de données et des systèmes de fichiers virtualisés.
@@ -250,7 +247,6 @@ Linux ou Windows
  a| 
 Plug-ins personnalisés
  a| 
-https://automationstore.netapp.com/home.shtml["Stockage NetApp Storage Automation Store"^]
  a| 
 Pour les sauvegardes de système de fichiers, Plug-in pour Windows
  a| 
@@ -332,8 +328,6 @@ Les périphériques SAN natifs, les systèmes de fichiers et les dispositions LV
 * Prise en charge de la création de copies en miroir des jeux de sauvegarde sur un autre volume et de la réplication de sauvegarde disque à disque.
 * Prise en charge des environnements Windows et Linux. Dans les environnements Windows, les applications personnalisées via des plug-ins personnalisés peuvent, en option, utiliser le plug-in SnapCenter pour Microsoft Windows pour créer des sauvegardes cohérentes avec le système de fichiers.
 
-
-Des exemples de plug-in personnalisés MySQL, DB2 et MongoDB pour le logiciel SnapCenter peuvent être téléchargés à partir du https://automationstore.netapp.com/home.shtml["Stockage NetApp Storage Automation Store"^].
 
 
 NOTE: Les plug-ins personnalisés MySQL, DB2 et MongoDB sont pris en charge uniquement par les communautés NetApp.
